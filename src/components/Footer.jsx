@@ -7,8 +7,8 @@ import { IoMdCall, IoMdMail } from "react-icons/io";
 const Footer = () => {
   return (
     <main>
-      <div className="h-[450px] overflow-hidden">
-      <img src="/footerImg.png" className="w-full h-full object-cover object-top" alt="Footer Image" />
+      <div className="h-[420px] overflow-hidden">
+      <img src="/footerImg.png" className="w-full h-full object-cover bg-top" alt="Footer Image" />
 
       </div>
     <footer className="flex flex-col text-white px-4 py-6 bg-black">

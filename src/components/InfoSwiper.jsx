@@ -25,13 +25,13 @@ const InfoSwiper = () => {
         {InfoSwiperContent.map((info, index) => (
           <SwiperSlide
             key={index}
-            className="flex flex-col items-center cursor-grab active:cursor-grabbing  w-full h-[1200px]"
+            className="flex flex-col items-center cursor-grab active:cursor-grabbing  w-full  "
           >
             <div
-              className={`flex flex-col items-center justify-center w-full h-full rounded-sm bg-cover bg-center`}
+              className={`flex flex-col items-center justify-center w-full  rounded-sm bg-cover bg-center  h-[700px] `}
               style={{ backgroundImage: `url(${info.bgImg})` }}
             >
-              <div className="relative z-10 flex flex-col w-full h-full justify-end items-end text-right text-white md:mr-40 md:mb-40 mt-20 px-8 py-4">
+              <div className="relative z-10 flex flex-col w-full h-full justify-end items-end text-right text-white md:mr-40 md:mb-20 mt-20 px-8 py-4">
                 <h3 className="text-4xl md:text-9xl font-bold font-zuumerough shadow-md">
                   {info.title}
                 </h3>
