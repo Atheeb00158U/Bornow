@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Font+Name&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'hussar';
+  src: url('/hussarbold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'zuumer';
+  src: url('/fontspring-demo-zuumerough-bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.noise {
+  background-color: #0c795d; /* Base color */
+  background-image: 
+    repeating-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.1) 0,
+      rgba(255, 255, 255, 0.1) 1px,
+      rgba(255, 255, 255, 0.2) 1px,
+      rgba(255, 255, 255, 0.2) 2px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.1) 0,
+      rgba(0, 0, 0, 0.1) 1px,
+      rgba(0, 0, 0, 0.2) 1px,
+      rgba(0, 0, 0, 0.2) 2px
+    );
+}
+
+
+.neutral-noise {
+  background-color: none; 
+  background-image: 
+    repeating-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.1) 0,
+      rgba(255, 255, 255, 0.1) 1px,
+      rgba(255, 255, 255, 0.2) 1px,
+      rgba(255, 255, 255, 0.2) 2px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.1) 0,
+      rgba(0, 0, 0, 0.1) 1px,
+      rgba(0, 0, 0, 0.2) 1px,
+      rgba(0, 0, 0, 0.2) 2px
+    );
+}
